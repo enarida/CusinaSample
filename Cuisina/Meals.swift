@@ -1,0 +1,25 @@
+//
+//  Meals.swift
+//  Cuisina
+//
+//  Created by Imergex on 10/4/16.
+//  Copyright © 2016 Imergex. All rights reserved.
+//
+
+import Foundation
+import UIKit
+
+class Meals: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    
+}

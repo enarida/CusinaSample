@@ -13,6 +13,8 @@
 		BCE291C81DA34DB3001DEA3B /* Cuisina.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BCE291C61DA34DB3001DEA3B /* Cuisina.xcdatamodeld */; };
 		BCE291CA1DA34DB3001DEA3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE291C91DA34DB3001DEA3B /* Assets.xcassets */; };
 		BCE291CD1DA34DB3001DEA3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE291CB1DA34DB3001DEA3B /* LaunchScreen.storyboard */; };
+		BCE291D51DA38705001DEA3B /* open-sans in Resources */ = {isa = PBXBuildFile; fileRef = BCE291D41DA38704001DEA3B /* open-sans */; };
+		BCE291D71DA3A2CD001DEA3B /* Meals.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE291D61DA3A2CC001DEA3B /* Meals.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BCE291C91DA34DB3001DEA3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCE291CC1DA34DB3001DEA3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCE291CE1DA34DB3001DEA3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCE291D41DA38704001DEA3B /* open-sans */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "open-sans"; path = "../open-sans"; sourceTree = "<group>"; };
+		BCE291D61DA3A2CC001DEA3B /* Meals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 			children = (
 				BCE291BF1DA34DB3001DEA3B /* AppDelegate.swift */,
 				BCE291C11DA34DB3001DEA3B /* ViewController.swift */,
+				BCE291D61DA3A2CC001DEA3B /* Meals.swift */,
 				BCE291C31DA34DB3001DEA3B /* Main.storyboard */,
 				BCE291C91DA34DB3001DEA3B /* Assets.xcassets */,
+				BCE291D41DA38704001DEA3B /* open-sans */,
 				BCE291CB1DA34DB3001DEA3B /* LaunchScreen.storyboard */,
 				BCE291CE1DA34DB3001DEA3B /* Info.plist */,
 				BCE291C61DA34DB3001DEA3B /* Cuisina.xcdatamodeld */,
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCE291CD1DA34DB3001DEA3B /* LaunchScreen.storyboard in Resources */,
+				BCE291D51DA38705001DEA3B /* open-sans in Resources */,
 				BCE291CA1DA34DB3001DEA3B /* Assets.xcassets in Resources */,
 				BCE291C51DA34DB3001DEA3B /* Main.storyboard in Resources */,
 			);
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCE291D71DA3A2CD001DEA3B /* Meals.swift in Sources */,
 				BCE291C21DA34DB3001DEA3B /* ViewController.swift in Sources */,
 				BCE291C81DA34DB3001DEA3B /* Cuisina.xcdatamodeld in Sources */,
 				BCE291C01DA34DB3001DEA3B /* AppDelegate.swift in Sources */,
