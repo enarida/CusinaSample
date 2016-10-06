@@ -15,9 +15,15 @@
 		BCE291CD1DA34DB3001DEA3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE291CB1DA34DB3001DEA3B /* LaunchScreen.storyboard */; };
 		BCE291D51DA38705001DEA3B /* open-sans in Resources */ = {isa = PBXBuildFile; fileRef = BCE291D41DA38704001DEA3B /* open-sans */; };
 		BCE291D71DA3A2CD001DEA3B /* Meals.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE291D61DA3A2CC001DEA3B /* Meals.swift */; };
+		BCFE4A7C1DA5F56700BF7674 /* ADVSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE4A7B1DA5F56700BF7674 /* ADVSegmentedControl.swift */; };
+		BCFE4A7E1DA5F5B500BF7674 /* Kuholsagata.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE4A7D1DA5F5B500BF7674 /* Kuholsagata.swift */; };
+		BCFE4A801DA61A7E00BF7674 /* CosmosDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE4A7F1DA61A7E00BF7674 /* CosmosDistrib.swift */; };
+		CD5DDC296AD70F7FBE440556 /* Pods_Cuisina.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B1D3382BC9F1E69DD3881A4 /* Pods_Cuisina.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B1D3382BC9F1E69DD3881A4 /* Pods_Cuisina.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cuisina.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E6BAC47D0776AB8EB6A0CA1 /* Pods-Cuisina.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cuisina.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cuisina/Pods-Cuisina.release.xcconfig"; sourceTree = "<group>"; };
 		BCE291BC1DA34DB2001DEA3B /* Cuisina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cuisina.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE291BF1DA34DB3001DEA3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCE291C11DA34DB3001DEA3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +34,10 @@
 		BCE291CE1DA34DB3001DEA3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCE291D41DA38704001DEA3B /* open-sans */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "open-sans"; path = "../open-sans"; sourceTree = "<group>"; };
 		BCE291D61DA3A2CC001DEA3B /* Meals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meals.swift; sourceTree = "<group>"; };
+		BCFE4A7B1DA5F56700BF7674 /* ADVSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADVSegmentedControl.swift; sourceTree = "<group>"; };
+		BCFE4A7D1DA5F5B500BF7674 /* Kuholsagata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kuholsagata.swift; sourceTree = "<group>"; };
+		BCFE4A7F1DA61A7E00BF7674 /* CosmosDistrib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosmosDistrib.swift; sourceTree = "<group>"; };
+		C61F62A2D4CD291BD884BAFF /* Pods-Cuisina.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cuisina.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cuisina/Pods-Cuisina.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD5DDC296AD70F7FBE440556 /* Pods_Cuisina.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +57,8 @@
 			children = (
 				BCE291BE1DA34DB3001DEA3B /* Cuisina */,
 				BCE291BD1DA34DB2001DEA3B /* Products */,
+				E68C7D7AD3887063DA435DA4 /* Pods */,
+				D10D39F9F992BDABE2BB095F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,14 +76,42 @@
 				BCE291BF1DA34DB3001DEA3B /* AppDelegate.swift */,
 				BCE291C11DA34DB3001DEA3B /* ViewController.swift */,
 				BCE291D61DA3A2CC001DEA3B /* Meals.swift */,
+				BCFE4A7D1DA5F5B500BF7674 /* Kuholsagata.swift */,
 				BCE291C31DA34DB3001DEA3B /* Main.storyboard */,
-				BCE291C91DA34DB3001DEA3B /* Assets.xcassets */,
-				BCE291D41DA38704001DEA3B /* open-sans */,
 				BCE291CB1DA34DB3001DEA3B /* LaunchScreen.storyboard */,
-				BCE291CE1DA34DB3001DEA3B /* Info.plist */,
-				BCE291C61DA34DB3001DEA3B /* Cuisina.xcdatamodeld */,
+				BCFE4A7A1DA5F52E00BF7674 /* Supporting Files */,
 			);
 			path = Cuisina;
+			sourceTree = "<group>";
+		};
+		BCFE4A7A1DA5F52E00BF7674 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCFE4A7F1DA61A7E00BF7674 /* CosmosDistrib.swift */,
+				BCFE4A7B1DA5F56700BF7674 /* ADVSegmentedControl.swift */,
+				BCE291CE1DA34DB3001DEA3B /* Info.plist */,
+				BCE291C61DA34DB3001DEA3B /* Cuisina.xcdatamodeld */,
+				BCE291C91DA34DB3001DEA3B /* Assets.xcassets */,
+				BCE291D41DA38704001DEA3B /* open-sans */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D10D39F9F992BDABE2BB095F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B1D3382BC9F1E69DD3881A4 /* Pods_Cuisina.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E68C7D7AD3887063DA435DA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C61F62A2D4CD291BD884BAFF /* Pods-Cuisina.debug.xcconfig */,
+				9E6BAC47D0776AB8EB6A0CA1 /* Pods-Cuisina.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,9 +121,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCE291D11DA34DB3001DEA3B /* Build configuration list for PBXNativeTarget "Cuisina" */;
 			buildPhases = (
+				ABC407DAD8DD511FEA0E36FD /* 📦 Check Pods Manifest.lock */,
 				BCE291B81DA34DB2001DEA3B /* Sources */,
 				BCE291B91DA34DB2001DEA3B /* Frameworks */,
 				BCE291BA1DA34DB2001DEA3B /* Resources */,
+				865A9A84674E5731E439C0C9 /* 📦 Embed Pods Frameworks */,
+				71BFC647002CBB780EBE51D2 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,13 +184,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		71BFC647002CBB780EBE51D2 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cuisina/Pods-Cuisina-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		865A9A84674E5731E439C0C9 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cuisina/Pods-Cuisina-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABC407DAD8DD511FEA0E36FD /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BCE291B81DA34DB2001DEA3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCFE4A7C1DA5F56700BF7674 /* ADVSegmentedControl.swift in Sources */,
 				BCE291D71DA3A2CD001DEA3B /* Meals.swift in Sources */,
+				BCFE4A7E1DA5F5B500BF7674 /* Kuholsagata.swift in Sources */,
 				BCE291C21DA34DB3001DEA3B /* ViewController.swift in Sources */,
+				BCFE4A801DA61A7E00BF7674 /* CosmosDistrib.swift in Sources */,
 				BCE291C81DA34DB3001DEA3B /* Cuisina.xcdatamodeld in Sources */,
 				BCE291C01DA34DB3001DEA3B /* AppDelegate.swift in Sources */,
 			);
@@ -259,6 +354,7 @@
 		};
 		BCE291D21DA34DB3001DEA3B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C61F62A2D4CD291BD884BAFF /* Pods-Cuisina.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Cuisina/Info.plist;
@@ -270,6 +366,7 @@
 		};
 		BCE291D31DA34DB3001DEA3B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E6BAC47D0776AB8EB6A0CA1 /* Pods-Cuisina.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Cuisina/Info.plist;
@@ -298,6 +395,7 @@
 				BCE291D31DA34DB3001DEA3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
