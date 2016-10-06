@@ -50,21 +50,19 @@ class kuholsaGata: UIViewController {
             contactView.hidden = false
             ratingView.hidden = true
         }
+    
+        
     }
     
     @IBAction func availabilityButton(sender: AnyObject) {
         
+        Drop.down("Available at Friday 10am - 11am", state: .Error)
         
     }
-    
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
+
     //MARK -> to make statusbar color white :D
     override func preferredStatusBarStyle() -> UIStatusBarStyle {
         return .LightContent
     }
+
 }
